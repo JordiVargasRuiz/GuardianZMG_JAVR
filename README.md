@@ -19,12 +19,14 @@ El resultado es un reporte de viaje estructurado y orientado a usuarios de Guada
 
 1. `Telegram Trigger`
    - Dispara el flujo cuando se recibe un mensaje en el bot de Telegram.
+<img width="1866" height="514" alt="image" src="https://github.com/user-attachments/assets/6444e2f3-ad66-4bd4-b540-0ecb86e76982" />
+
 2. `Basic LLM Chain`
    - Clasifica la intención del mensaje en `RUTA` o `CHARLA`.
 3. `If`
    - Si la intención es `RUTA`, procesa la solicitud con el agente de IA.
    - Si es `CHARLA`, responde con un mensaje de saludo y guía.
-<img width="1873" height="853" alt="image" src="https://github.com/user-attachments/assets/00647a83-3acb-4236-9a9a-cea33f9c6645" />
+<img width="1154" height="516" alt="image" src="https://github.com/user-attachments/assets/c414a78b-ad7e-43f4-a82b-2be880534bb3" />
 
 4. `AI Agent`
    - Orquesta las herramientas y genera la respuesta final en texto.
