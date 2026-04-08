@@ -24,6 +24,8 @@ El resultado es un reporte de viaje estructurado y orientado a usuarios de Guada
 3. `If`
    - Si la intención es `RUTA`, procesa la solicitud con el agente de IA.
    - Si es `CHARLA`, responde con un mensaje de saludo y guía.
+<img width="1873" height="853" alt="image" src="https://github.com/user-attachments/assets/00647a83-3acb-4236-9a9a-cea33f9c6645" />
+
 4. `AI Agent`
    - Orquesta las herramientas y genera la respuesta final en texto.
 5. Herramientas de apoyo:
