@@ -23,13 +23,17 @@ El resultado es un reporte de viaje estructurado y orientado a usuarios de Guada
 
 2. `Basic LLM Chain`
    - Clasifica la intención del mensaje en `RUTA` o `CHARLA`.
+<img width="1871" height="456" alt="image" src="https://github.com/user-attachments/assets/544403a7-5a7c-4fdc-8468-fcba29c3849a" />
+
 3. `If`
    - Si la intención es `RUTA`, procesa la solicitud con el agente de IA.
    - Si es `CHARLA`, responde con un mensaje de saludo y guía.
-<img width="1154" height="516" alt="image" src="https://github.com/user-attachments/assets/c414a78b-ad7e-43f4-a82b-2be880534bb3" />
+<img width="1872" height="706" alt="image" src="https://github.com/user-attachments/assets/dae5a7e5-0b09-4be4-aa8f-96688ca1ddee" />
 
 4. `AI Agent`
    - Orquesta las herramientas y genera la respuesta final en texto.
+<img width="1869" height="701" alt="image" src="https://github.com/user-attachments/assets/49215fbc-f9d1-407c-9a9f-ac2bc4873316" />
+
 5. Herramientas de apoyo:
    - `Google Gemini Chat Model`: modelo de lenguaje.
    - `HTTP Request`: consulta Google Maps Directions API.
@@ -39,6 +43,8 @@ El resultado es un reporte de viaje estructurado y orientado a usuarios de Guada
    - `calculadora_tarifas`: calcula el costo total de la ruta.
 6. `Send a text message`
    - Envía la respuesta final al usuario de Telegram.
+<img width="1796" height="914" alt="image" src="https://github.com/user-attachments/assets/22af13f2-e6ec-4e72-bfc4-18bc870637b3" />
+
 
 ## Nodos principales
 
