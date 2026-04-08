@@ -59,6 +59,8 @@ El resultado es un reporte de viaje estructurado y orientado a usuarios de Guada
 - **TraficoZMG**: obtiene información de tráfico desde un feed RSS.
 - **MiBici**: obtiene datos de la red de bicicletas públicas.
 - **Send a text message**: entrega resultado con teclado inline en Telegram.
+<img width="1412" height="842" alt="image" src="https://github.com/user-attachments/assets/3887a36a-1872-4fbe-87c7-eecff87a85d4" />
+
 
 ## Requisitos
 
