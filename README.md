@@ -12,6 +12,8 @@
 - Cálculo de tarifa oficial del transporte público de la ZMG
 
 El resultado es un reporte de viaje estructurado y orientado a usuarios de Guadalajara, Zapopan, Tlaquepaque y Tonalá.
+<img width="1722" height="876" alt="image" src="https://github.com/user-attachments/assets/0b5184f4-24a5-4074-bdf5-01d8c64da2da" />
+
 
 ## Arquitectura del flujo
 
