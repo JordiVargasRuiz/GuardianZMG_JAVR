@@ -1,0 +1,64 @@
+{
+  "name": "Manejador_error_Guardian",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.errorTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "b71f83fc-cbd0-4f44-b739-a553ba8c11f4",
+      "name": "Error Trigger"
+    },
+    {
+      "parameters": {
+        "chatId": "={{ $json.execution.error?.originalItem?.json?.message?.chat?.id || 8645057092 }}",
+        "text": "🚨 GUARDIANZMG MODO DE RECUPERACIÓN  Hola, soy el asistente de movilidad. Hemos detectado un problema técnico con uno de nuestros proveedores de datos (Maps/MiBici).  🛠 Estado Intentando recuperación automática. 📋 Detalle El servicio se encuentra saturado o fuera de línea momentáneamente.  No te preocupes, estoy trabajando para restaurar tu ruta. Por favor, intenta de nuevo en un minuto.",
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        208,
+        0
+      ],
+      "id": "febd111f-845a-4167-a788-585a658fb4d5",
+      "name": "Send a text message",
+      "webhookId": "26024a12-d669-4649-aae9-1e55299ebc5d",
+      "credentials": {
+        "telegramApi": {
+          "id": "zZ2fGRpROAe1IA78",
+          "name": "Telegram account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Error Trigger": {
+      "main": [
+        [
+          {
+            "node": "Send a text message",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "b244379e-acd2-47bd-b4c7-b4d698f4d268",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "62c7ad5f84cce2ad9d06e3937bfb04386ec6c3a0c15a252e83c857413127d39a"
+  },
+  "id": "7gNVvGX9db3qHccZ",
+  "tags": []
+}
