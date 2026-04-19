@@ -61,6 +61,13 @@ El resultado es un reporte de viaje estructurado y orientado a usuarios de Guada
 - **Send a text message**: entrega resultado con teclado inline en Telegram.
 <img width="1412" height="842" alt="image" src="https://github.com/user-attachments/assets/3887a36a-1872-4fbe-87c7-eecff87a85d4" />
 
+## Arquitectura y Resiliencia
+El sistema destaca por su Arquitectura de Tolerancia a Fallos, diseñada para mitigar caídas en las APIs de Google o Gemini.
+
+Gestión de Errores (Error Handling)
+Manejador de Excepciones Global: El flujo principal está vinculado a un Error Workflow independiente.
+
+Recuperación Automática: Ante cualquier fallo crítico (Timeout de API, error de cuota), el sistema dispara un flujo de rescate que notifica al usuario sobre el estado de recuperación.
 
 ## Requisitos
 
