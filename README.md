@@ -68,6 +68,8 @@ Gestión de Errores (Error Handling)
 Manejador de Excepciones Global: El flujo principal está vinculado a un Error Workflow independiente.
 
 Recuperación Automática: Ante cualquier fallo crítico (Timeout de API, error de cuota), el sistema dispara un flujo de rescate que notifica al usuario sobre el estado de recuperación.
+<img width="772" height="360" alt="image" src="https://github.com/user-attachments/assets/7c0404af-ddd0-4871-96ac-0a0e2e1d8599" />
+
 
 ## Requisitos
 
